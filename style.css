@@ -78,3 +78,34 @@ footer {
 footer p {
     color: #666;
 }
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    position: relative;  /* To position elements within the footer */
+}
+
+footer p {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px; /* Add space between the quote and the CTA */
+}
+
+.footer-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between the text and the button */
+}
+
+.footer-cta span {
+    color: #333;
+}
+
+footer button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
